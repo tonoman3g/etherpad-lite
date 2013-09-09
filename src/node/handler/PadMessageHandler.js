@@ -1521,7 +1521,6 @@ exports.padUsers = function (padID, callback) {
 
         author.id = s.author;
         result.push(author);
-		callback();
       });
     }
   }, function(err) {
